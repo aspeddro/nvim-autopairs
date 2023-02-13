@@ -1,9 +1,8 @@
-local _, ts_utils = pcall(require, 'nvim-treesitter.ts_utils')
-
 local log = require('nvim-autopairs._log')
 local parsers = require'nvim-treesitter.parsers'
 local utils = require('nvim-autopairs.utils')
 local ts_query = vim.treesitter.query
+local ts_utils = vim.treesitter
 
 local conds = {}
 
